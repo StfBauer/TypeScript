@@ -94,6 +94,7 @@
         "build:compiler": "jake local",
         "build:tests": "jake tests",
         "build:private-packages": "jake private-packages",
+        "build:private-packages:node6": "jake private-packages INSTALL_PRIVATE_DEPS=1",
         "start": "node lib/tsc",
         "clean": "jake clean",
         "gulp": "gulp",
